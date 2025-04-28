@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Savino</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="provida.js"></script>
+<link rel="stylesheet" href="provida.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div id="fundo-externo">
+  <div id="fundo">
+    <img src="imgPv/providaUfpa.png" alt="Provida" />
+  </div>
+</div>
+<div id="site">
+<h1 align="center">Imágens Pe Savino<br>
+<div id="menu">
+<a href="./savinoPortugues.html" style="text-decoration:none">Savino</a>
+<a href="./impressos/historiaPadreSavino.pdf"target="_blank"style="text-decoration:none">Histórico</a>
+<a href="./impressos.html" style="text-decoration:none">Reflexões</a>
+<a href="./testemunhos.php"style="text-decoration:none">Testemunhos</a>
+</div>
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/1sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/2sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/3sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/4sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/5sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/6sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/7sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/9sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/10sv.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="imgPv/11sv.jpg" style="width:100%">
+</div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000);
+}
+</script>
+
+</body>
+</html>
