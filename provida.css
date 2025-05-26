@@ -65,6 +65,10 @@ Código CSS -- Estilos Reset
  	background-color: #000000;
  }
 
+ u {
+ 	color: #5350ec;
+ }
+
  p {
  	margin-top: 20px;
  	margin-bottom: 1em;
