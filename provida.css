@@ -123,13 +123,15 @@ Código CSS -- Estilos Reset
 
  #site {
  	background: #FFF;
- 	background: hwb(0 100% 0% / 0.849);
+ 	background: hwb(0 100% 0% / 0.564);
  	position: absolute;
  	top: 0;
- 	left: 42%;
+ 	left: 38%;
  	width: 890px;
  	padding: 20px;
  	margin-left: -300px;
  	margin-top: 80px;
- 	border-radius: 500px 500px 50px 50px;
+ 	border-radius: 350px 350px 50px 50px;
+	justify-content: center;
+ 	align-items: center;
  }
