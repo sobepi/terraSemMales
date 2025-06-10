@@ -76,7 +76,7 @@ Código CSS -- Estilos Reset
  	text-align: justify;
  	text-shadow: inter-word;
 	font-size: x-large;
- 	color: hwb(130 4% 50%);
+ 	color: lch(25.16% 40.33 140.53);
  }
 
  /*
@@ -123,13 +123,15 @@ Código CSS -- Estilos Reset
 
  #site {
  	background: #FFF;
- 	background: hwb(0 100% 0% / 0.849);
+ 	background: lab(100% 0.01 -0.01 / 0.644);
  	position: absolute;
  	top: 0;
- 	left: 42%;
+ 	left: 38%;
  	width: 890px;
  	padding: 20px;
  	margin-left: -300px;
  	margin-top: 80px;
- 	border-radius: 500px 500px 50px 50px;
+ 	border-radius: 350px 350px 50px 50px;
+	justify-content: center;
+ 	align-items: center;
  }
